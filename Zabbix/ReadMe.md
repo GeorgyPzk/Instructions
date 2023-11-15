@@ -10,6 +10,7 @@
 It should be something like this:
 
 `apt-get install -y language-pack-en`
+
 6. Restart
 
 
@@ -19,10 +20,9 @@ It should be something like this:
 2. Change the parameters in the file(/etc/zabbix/zabbix_agentd.conf) on the Zabbix server IP [Source](https://www.devopsschool.com/blog/how-to-install-configure-zabbix-agent/)
 
 `ServerActive=<serverIP>`
-
 `Server=<serverIP>`
-
 `Hostname=Zabbix server`
+
 3. Restart
 4. Create host. 
 5. To do green avability ZBX. You need set up any check(active or passive, I forget which one). Example you can find in video(Zabbix basic concepts) on [this page below](https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.04&components=agent&db=&ws=)
