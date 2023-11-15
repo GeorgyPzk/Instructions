@@ -24,7 +24,7 @@ It should be something like this:
 `Hostname=Zabbix server`
 
 3. Restart
-4. Create host. 
+4. Create host.[Link](https://www.zabbix.com/documentation/current/en/manual/config/hosts/host]
 5. To do green avability ZBX. You need set up any check(active or passive, I forget which one). Example you can find in video(Zabbix basic concepts) on [this page below](https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.04&components=agent&db=&ws=)
 
 # Zabbix monitoring
